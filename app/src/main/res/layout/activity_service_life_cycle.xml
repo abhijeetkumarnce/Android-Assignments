@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#BC7272"
+    android:layout_height="match_parent"
+    tools:context=".ServiceLifeCycle">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="SERVICEDEMO APP"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttondesign"
+        android:text="START SERVICE"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buttondesign"
+        android:text="STOP SERVICE"
+        android:textSize="18sp" />
+
+</LinearLayout>
